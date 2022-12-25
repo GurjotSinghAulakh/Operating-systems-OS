@@ -4,7 +4,7 @@
 $tid1 = Measure-Command{.\run1.ps1}
 $tid2 = Measure-Command{.\run2.ps1}
 
-$diff = $diff1 -$diff2
+$diff = $diff1 - $diff2
 
 $sek = $diff.TotalSeconds
 
